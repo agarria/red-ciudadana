@@ -2,6 +2,76 @@
 and (min-device-width: 320px) 
 and (max-device-width: 768px) 
 and (-webkit-min-device-pixel-ratio: 2) {
+
+    /* NAV */
+
+    nav {
+        height: 100px;
+        line-height: 100px;
+        padding: 0 5%;
+    }
+
+    .nav-logo {
+        float: initial;
+        margin: 0 auto;
+    }
+
+    .nav-container {
+        display: none;
+    }
+
+
+    /* HEADER */
+
+    .head {
+        height: 220px;
+    }
+
+    .slick-prev,
+    .slick-next {
+        width: auto;
+        height: auto;
+    }
+
+    .slick-next:before,
+    .slick-prev:before {
+        font-size: 20px;
+    }
+
+    .slick-prev {
+        left: 5%;
+    }
+
+    .slick-next {
+        right: 5%;
+    }
+
+    /* MAIN */
+
+    main {
+        padding: 10% 5%;
+    }
+
+    /* SECTION */
+
+    section {
+        margin: 0 0 10% 0;
+    }
+
+    .section-title {
+        margin: 0 0 5% 0;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .section-description {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .section-content {
+        margin: 5% 0 0 0;
+    }
     
     /* FOOTER */
     
